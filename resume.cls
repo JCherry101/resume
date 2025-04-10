@@ -103,15 +103,15 @@
   \emph{#3}                \hfill                  \emph{#4}% Stop a space
   }\smallskip
   % \cdot used for bullets, items non-indented
-  \begin{list}{$\cdot$}{\leftmargin=0em}
+  \begin{list}{$\cdot$}{\leftmargin=0em \itemsep -0.3em \vspace{-0.3em}} % Reduced spacing
   \itemsep -0.5em \vspace{-0.5em}
 }{
   \end{list}
   \vspace{0.5em}
 }
 
-\def\namesize{\huge}
-\def\nameskip{\medskip}
-\def\addressskip{\smallskip}
-\def\sectionskip{\bigskip}
-\def\sectionlineskip{\medskip}
+\def\namesize{\Large} % Reduced from \huge
+\def\nameskip{\smallskip} % Reduced from \medskip
+\def\addressskip{\smallskip} % Kept the same
+\def\sectionskip{\smallskip} % Reduced from \bigskip
+\def\sectionlineskip{\smallskip} % Reduced from \medskip
